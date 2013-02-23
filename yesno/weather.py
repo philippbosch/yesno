@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import yweather
+try:
+    import yweather
+except ImportError:
+    raise Exception("`yweather` library not found. Please install with e.g. `pip install yweather`.")
 from . import Question
 
 

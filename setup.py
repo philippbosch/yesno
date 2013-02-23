@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yesno',
-    version='0.1',
+    version='0.2',
     url="http://github.com/philippbosch/yesno",
     description="Get answers to simple yes/no questions",
     long_description="A collection of coded questions that answer simple yes/no questions for use in is___.com websites.",
